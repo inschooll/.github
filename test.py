@@ -1,5 +1,12 @@
-def hello_world(name):
-  print(1)
-  print('Hello World!')
+def say_hi(): 
+  return "hi"
 
-hello_world('daniel')
+def hello_world():
+  print('Hello World!')
+  print(3)
+
+hello_world()
+
+print('done')
+
+print(say_hi())
